@@ -1,0 +1,26 @@
+name = Vlr
+description =Vlr website theme developed by Inter Studios(Author: Menaf Gul)
+screenshot = screenshot.png
+engine = phptemplate
+
+;----Style Sheets -----------------------------------
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = lbox/lbox.css
+stylesheets[all][] = css/vilore.css
+
+;---- JavaScript files ------------------------------
+;scripts[] = js/jquery.js
+scripts[] = lbox/lbox.js
+scripts[] = js/vilore.js
+
+;---- Theme Regions -----------------------------------
+regions[top] = Top Section
+regions[left] = Left Section
+regions[right] = Right Section
+regions[mix] = Miscellaneous Section
+
+;Template info
+core = 6.x
+version = "6.x-1.0"
+core = "6.x"
+
